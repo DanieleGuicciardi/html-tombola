@@ -29,7 +29,7 @@ function drawNumber() {
 // random number
 function generateTicket() {
     const ticketContainer = document.getElementById("ticket");
-    ticketContainer.innerHTML = ""; // Resetta il contenuto della cartella
+    ticketContainer.innerHTML = ""; //content reset
     ticketContainer.style.display = "grid";
 
     let ticketNumbers = [];
